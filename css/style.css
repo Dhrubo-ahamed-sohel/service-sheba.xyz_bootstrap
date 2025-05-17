@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+/* Navbar */
+.custom-navbar{
+
+}
+/* Hero Container */
+.hero-container{
+    background-image: url(../images/hero-cover.jpg);
+    height: 450px;
+    width: auto;
+    background-size: cover;
+    background-position: center;
+}
+.motto{
+    font-size: 56px;
+    line-height: 64px;
+    font-weight: 600;
+}
+.input-field:focus{
+    outline: none;
+}
+/* Hero Features Section */
+.hero-features-container{
+    margin-top: -3.5rem;
+}
+.feature-title{
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+}
+/* Why Choose US */
+.why-choose-us{
+    background-color: #fafbfc;
+}
+.line{
+    width: 30px;
+    height: 1px;
+    background-color: #979797;
+}
+/* counts-container section */
+.counts-container, 
+.testimonial-container,
+.contact-contaianer{
+    background-color: #f4f5f8;
+}
+/* How it works */
+.features-list{
+    
+    
+}
+.how-right-title{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.7);
+}
+.round-div{
+    background-image: linear-gradient(135deg, #23a999 1%, #00a1ba 52%, #006597);
+    height: 50px;
+    width: 50px;
+    top: 0;
+    left: -25px;
+}
+.feature-number{
+    left: -5px;
+    top: 11px;
+}
+/* testimonial-description section */
+.testimonial-description{
+    border-left: 10px solid #00a1ba;
+}
+/* service-request-image */
+
+.service-request-image{
+    top: -130px;
+    right: 0;
+    z-index: 0;
+}
+/* footer-container section */
+.footer-container{
+    background-color: #ebefec;
+    z-index: 1;
+}
+/* footer section */
+.footer-font{
+    font-size: 14px;
+}
+/* Smaller Screen */
+@media(max-width : 450px){
+    .hero-features-container{
+        margin-top: 1rem;
+    
+    }
+}
+/* contact image Screen */
+@media(max-width : 1200px){
+    .service-request-image{
+    top: -105px;
+    right: 0;
+    }
+}
+@media(max-width : 768px){
+    .service-request-image{
+    top: -50px;
+    
+    }
+}
+@media(max-width : 739px){
+    .service-request-image{
+    top: -80px;
+    
+    }
+}
